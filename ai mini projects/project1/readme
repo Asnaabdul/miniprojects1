@@ -1,0 +1,53 @@
+# 🤖 Ollama LangChain Agent
+
+A simple **command-line AI assistant** built using **LangChain**, **LangGraph**, and **Ollama**.  
+The assistant can chat with users and stream responses directly in the terminal.
+
+---
+
+## 🚀 Features
+
+- Runs locally using **Ollama**
+- Uses **LangChain ReAct agent**
+- Streams assistant responses in real time
+- Command-line based interaction
+- Lightweight and beginner-friendly
+
+---
+
+## 🛠 Technologies Used
+
+- Python
+- LangChain
+- LangGraph
+- Ollama (LLaMA 2 model)
+
+---
+
+## 📂 Project Structure
+project/
+├── main.py
+├── README.md
+└── pyproject.toml
+
+---
+
+## ▶️ How It Works
+
+1. Starts a local AI assistant using Ollama
+2. Accepts user input from the terminal
+3. Streams AI-generated responses
+4. Type `quit` to exit the program
+
+---
+
+## 💬 Example Usage
+
+You: Hello
+Assistant: Hi! How can I help you today?
+
+You: What is 5 + 3?
+Assistant: The sum of 5 and 3 is 8
+
+You: quit
+
