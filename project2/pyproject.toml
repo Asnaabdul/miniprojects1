@@ -1,0 +1,10 @@
+[project]
+name = "project2"
+version = "0.1.0"
+description = "Offline Resume Critiquer using Streamlit"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "streamlit>=1.30.0",
+    "pypdf2>=3.0.1",
+]
